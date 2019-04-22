@@ -1,0 +1,300 @@
+%Studenti(Sid,Semri,smbiemri,sgjinia,sdata_e_lindjes,sstatusi_martesor,semail).
+
+studenti(1,'Artan','Hoti','mashkull','13/04/1998','beqar','artanhoti@gmail.com').
+studenti(2,'Berat','Krasniqi','mashkull','10/5/1997','beqar','beratkrasniqi@gmail.com').
+studenti(3,'Besarta','Isufi','femer','9/2/1998','beqar','besartaisufi@gmail.com').
+studenti(4,'Labinot','Thaqi','mashkull','2/1/1998','beqar','labinotthaqi@gmail.com').
+studenti(5,'Valmira','Kryeziu','femer','4/5/1997','beqar','valmirakryeziu@gmail.com').
+studenti(6,'Valdrin','Osmani','mashkull','16/12/1996','beqar','valdrinosmani@gmail.com').
+studenti(7,'Erza','Gashi','femer','8/12/1998','beqar','erzagashi@gmail.com').
+studenti(8,'Fjolla','Krasniqi','femer','30/4/1998','beqar','fjollakrasniqi@gmail.com').
+studenti(9,'Arbnor','Kastrati','mashkull','4/11/1997','beqar','arbnorkastrati@gmail.com').
+studenti(10,'Liridon','Morina','mashkull','14/10/1997','beqar','liridonmorina@gmail.com').
+
+%Adresa_sakte(sid,ashteti,aqyteti,arruga,akodi_postal).
+
+adresa_sakte(1,'Kosove','Prishtine','Agim Ramadani',10000).
+adresa_sakte(2,'Kosove','Podujeve','Liria',11000).
+adresa_sakte(3,'Kosove','Gjilan','UCK',60000).
+adresa_sakte(4,'Kosove','Ferizaj','Deshmoret e kombit',70000).
+adresa_sakte(5,'Kosove','Prizeren','Ramiz Ademaj',20000).
+adresa_sakte(6,'Kosove','Gjakove','Femih Agani',50000).
+adresa_sakte(7,'Kosove','Drenas','Fehmi Lladrovci',13000).
+adresa_sakte(8,'Kosove','Skenderaj','Adem Jashari',41000).
+adresa_sakte(9,'Kosove','Mitrovic','Isa Boletini',40000).
+adresa_sakte(10,'Kosove','Peje','Bekim Berisha',30000).
+
+%Username_dhe_fjalekalimi(sid,username,fjalekalimi).
+
+username_dhe_fjalekalimi(1,'artan13','4159e0a6f9ef68e3b5a18fadb9fdbb11').
+username_dhe_fjalekalimi(2,'berat.krasniqi','f935261eb6f05dae0ca6a7d6eb8a6b2c').
+username_dhe_fjalekalimi(3,'besarta1','4159e0a6f9ef68e3b5a18fadb9fdbb11').
+username_dhe_fjalekalimi(4,'labinoth','e741735d179d87b84074ac8e024a4d81').
+username_dhe_fjalekalimi(5,'valmirakrz','4da7bd3557a61cb19da855eb5bf78442').
+username_dhe_fjalekalimi(6,'valdrin.o','438cfc8dbb4b6797037d1df480415e03').
+username_dhe_fjalekalimi(7,'gashi.erza','ac8054ac8c3bd23066860e4102902ef6').
+username_dhe_fjalekalimi(8,'fjollaa','18391a2cf3efd378ec030002f9f33010').
+username_dhe_fjalekalimi(9,'arbnork','25d55ad283aa400af464c76d713c07ad').
+username_dhe_fjalekalimi(10,'liridon.mori','70f21928df286428ddeb99bd7a8670ee').
+
+
+%informata_per_studentin(sid,Gjuha,foto_e_profilit,aftesite_profesionale,Hobi,Libra_filma_ose_muzike,religjioni,pershkrimi).
+
+informata_per_studentin(1,'Shqip','binary','Futbollist','Futbolli','The Matrix','mysliman','Null').
+informata_per_studentin(2,'Shqip','verbinary','Null','Peshkimi','The Godfather','mysliman','Talk is cheap, show me the code').
+informata_per_studentin(3,'Shqip','binary','Pianist','Muzika','Inception','mysliman','Null').
+informata_per_studentin(4,'Shqip','binary','Kitarist','Muzika','Memento','Null','Work Hard').
+informata_per_studentin(5,'Shqip','verbinary','Null','Poezia','La La Land','mysliman','Null').
+informata_per_studentin(6,'Shqip','binary','Basketbollist','Basketboli','Social network','mysliman','Null').
+informata_per_studentin(7,'Shqip','binary','Null','Filmat','Pulp Fiction','mysliman','I dare you, I double dare you.').
+informata_per_studentin(8,'Shqip','verbinary','Violinist','Muzika','Forest Gump','mysliman','Null').
+informata_per_studentin(9,'Shqip','binary','Null','Muzika','The Dark Knight','mysliman','Why so serious').
+informata_per_studentin(10,'Shqip','binary','Futbollist','Futbolli','Gangs of New York','Null','Null').
+
+%studenti_jeton(sid,tel_mobile,Qyteti,Rruga).
+
+studenti_jeton(1,'+383-45-254-455','Prishtine','Agim Ramadani').
+studenti_jeton(2,'+383-45-245-453','Podujeve','Liria').
+studenti_jeton(3,'+383-44-454-345','Gjilan','UCK').
+studenti_jeton(4,'+383-45-875-944','Ferizaj','Deshmoret e kombit').
+studenti_jeton(5,'+383-49-339-003','Prizeren','Ramiz Ademaj').
+studenti_jeton(6,'+383-45-444-253','Gjakove','Fehmi Agani').
+studenti_jeton(7,'+383-49-123-433','Drenas','Fehmi Lladrovci').
+studenti_jeton(8,'+383-49-542-009','Skenderaj','Adem Jashari').
+studenti_jeton(9,'+383-45-543-145','Mitrovic','Isa Boletini').
+studenti_jeton(10,'+383-44-542-113','Peje','Bekim Berisha').
+
+%mentori(Mid,Emri,Mbiemri,data_lindjes,paga).
+
+tedhenat_mentorit(1,'Arta','Jakupi','1975-4-6',2000).
+tedhenat_mentorit(2,'Murat','Meha','1963-11-3',3000).
+tedhenat_mentorit(3,'Myrvete','Paqarada','1967-10-12',2300).
+tedhenat_mentorit(4,'Arsim','Morina','1970-6-7',2400).
+tedhenat_mentorit(5,'Ragip','Kastrati','1962-5-8',2500).
+tedhenat_mentorit(6,'Haxhi','Gashi','1961-6-7',2350).
+tedhenat_mentorit(7,'Sinan','Ademaj','1959-4-5',3200).
+tedhenat_mentorit(8,'Isa','Elezaj','1958-2-5',2000).
+tedhenat_mentorit(9,'Fevzi','Berisha','1961-1-2',3000).
+tedhenat_mentorit(10,'Agron','Pajaziti','1960-12-1',2700).
+
+%fakulteti(fid,emri_fakultetit).
+
+fakulteti(1,'FIEK').
+fakulteti(2,'FIM').
+fakulteti(3,'FNA').
+fakulteti(4,'FSHMN').
+fakulteti(5,'Ekonomik').
+fakulteti(6,'Juridik').
+fakulteti(7,'Buqesi').
+fakulteti(8,'Mjeksi').
+fakulteti(9,'fakulteti_i_arteve').
+fakulteti(10,'Edukimi').
+
+%drejtimi(Did,emri_drejtimit,fid).
+
+drejtimi(1,'Konstruktiv',3).
+drejtimi(2,'Telekomunikacion',1).
+drejtimi(3,'Elektroenergjetik',1).
+drejtimi(4,'inxhinieri kompjuterike',1).
+drejtimi(5,'Biologji',4).
+drejtimi(6,'Kimi',4).
+drejtimi(7,'fizike',4).
+drejtimi(8,'matematike',4).
+drejtimi(9,'kontabilitet',5).
+drejtimi(10,'pikture',9).
+
+%mentori_ligjeron(Mid,Fid,lenda_ligjerimit).
+
+mentori_ligjeron(1,3,'Gjeometri Deskriptive').
+mentori_ligjeron(2,3,'Bazat e të drejtave të regjistrimit të tokave').
+mentori_ligjeron(3,8,'Gjinekologji').
+mentori_ligjeron(4,8,'Kirurgji vaskulare').
+mentori_ligjeron(5,7,'Zoologji').
+mentori_ligjeron(6,6,'E drejta civile').
+mentori_ligjeron(7,5,'Kontabilitet').
+mentori_ligjeron(8,4,'Kimi analitike').
+mentori_ligjeron(9,4,'Algjeber Lineare').
+mentori_ligjeron(10,2,'Inxhinieri Industriale').
+
+%projekti(Pid,emri_projektit,data_fillimit,data_mbarimit,institucioni,vendi_realizimit,Pershkrimi,pozita_studentit,ueb_faqja).
+
+projekti(1,'Krijimi i një aplikacioni per menaxhimin e rrogave te punetoreve','2018-4-1','2018-6-15','Ministria e shkences dhe teknologjis','Prishtine','Lehtesimi i menaxhimit te punetoreve nga kompanite e ndryshme','Menaxher I projektit','Null').
+projekti(2,'projekti per testim online','2018-3-15','2018-5-3','Fakulteti Teknik','Prishtine','Zevendesimi i formes klasike te testimit me nje forme me modern','Menaxher I financave','www.fiek.uni-pr.edu').
+projekti(3,'Digjitalizimi i Orareve te Autobuseve ne Prizren','2017-6-20','2017-8-23','Komuna e Prizrenit','Prizren','Krijimi I tabelave per njoftim rreth orarit te autobuseve te ardhshem.','Kryesues I ekipit te programereve','www.kk.rks-gov.net/pz').
+projekti(4,'Krijimi i një platforme softwerike të integruar për hotelerine në Kosove','2017-7-18','2017-9-2','Ministria e zhvillimit ekonomik','Ferizaj','Krijimi I mundesive te rezervimit online ne hotel.','Menaxher I marketingut','www.kk.rks-gov.net/fr').
+projekti(5,'Krijimi-i-zonave te pastra ekologjike ne Prishtine','2017-8-20','2017-10-11','Komuna e Prishtines','Prishtine','Zvogelimi i hapesirave me mbeturina dhe rritja e hapesirave me peme, sepse çdo ton i letrave te recikluara ruan 15 deri 17 peme','Menaxhere e burimeve njerezore','Null').
+projekti(6,'Ndërtimi i strehimorës për qentë endacak në Prishtinë','2017-9-13','2017-10-13','Komuna e Prishtines','Prishtine','Largimi I qeneve endacak nga rruga.','Koordinatore e projektit','Null').
+projekti(7,'Ndërtimi dhe funksionalizimi i qendrës sportive për rekreacion në Kastriot','2018-2-23','2018-7-30','Komuna e Kastriotit','Kastriot','Krijimi I nje qendre sportive per femije dhe te rritur','Kryesuese e ekipit te financave','www.kk.rks-gov.net/obiliq').
+projekti(8,'Pilot projekti i zhvillimit të plantacionit të mjedrave në Jezerc','2018-3-30','2018-5-30','Ministria  e Bujqesise','Jezerc','Mbjellja dhe mbikqyrja e mjedrave','Menaxher Administrativ','Null').
+projekti(9,'Proejkti per prodhimin e cipave elektronik ne Peje','2018-4-12','2018-6-12','Mabetex','Peje','Prodhimi I cipave per shfrytezim nga kompanite e ndryshme','Menaxhere e marketingut','www.mabetexKosova.com').
+projekti(10,'projekti per ngritjen e qendres per e-biznes ne Prizren','2018-5-24','2018-8-24','Komuna e Prizrenit','Prizren','Mundesia e berjes biznes online','Kryesuese e ekipit per shpronesim','Null').
+
+%studenti_realizon_projektin(Sid,pid).
+
+studenti_realizon_projektin(1,2).
+studenti_realizon_projektin(2,3).
+studenti_realizon_projektin(3,4).
+studenti_realizon_projektin(4,5).
+studenti_realizon_projektin(5,6).
+studenti_realizon_projektin(6,7).
+studenti_realizon_projektin(7,8).
+studenti_realizon_projektin(8,9).
+studenti_realizon_projektin(9,10).
+studenti_realizon_projektin(10,1).
+
+%edukimi_studentit(sid,did,viti_fillimit,viti_mbarimit,i_diplomuar,tema_diplomes,titulli_temes,fusha_temes,mid).
+
+edukimi_studentit(1,2,'2007','20111','Po','NULL','Algjebra e pergjithshme','Matematike',9).
+edukimi_studentit(2,4,'2005','2009','Po','NULL','Teorite kryesore ne hapsiren 3D','Gjeodezi',4).
+edukimi_studentit(3,1,'2011','2015','Po','NULL','E drejta e perkthimit te prones private','Juridik',4).
+edukimi_studentit(4,3,'2012','2016','Po','NULL','Venet kardiovaskulare','Mjeksi',5).
+edukimi_studentit(5,5,'2010','NULL','Jo','NULL','NULL','NULL').
+edukimi_studentit(6,8,'2010','2016','Po','NULL','Efekti i borgjit te rritja ekonomike','Ekonomi',1).
+edukimi_studentit(7,7,'2013','2017','Po','NULL','Efekti i merdhirjes te kafshet','Blegtori',8).
+edukimi_studentit(8,6,'2014','NULL','Jo','NULL','NULL','NULL','NULL').
+edukimi_studentit(9,9,'2013','NULL','Jo','NULL','NULL','NULL','NULL').
+edukimi_studentit(10,10,'2015','2018','Po','NULL','Eksperimenti i Boil Mariotit per atomin','Fizike',4).
+
+%kompania(kid,emri_kompanise,llogo,pershkrimi,Email,ueb_faqja,nrPunt,lloji).
+
+kompania(21,'D.P.T Ardi','binary','Tregtia me pakicë e këpucëve dhe artikujve prej lëkure','dptardi@gmail.com','Null',10,'Biznes individual','2013','L.Mirëdita	').
+kompania(22,'Pi Communications','binary','Marketingu I produkteve te duhanit','pi@gmail.com','www.piC.com',15,'Kompani e Marketingut','2010','125, Vllezerit Thaqi').
+kompania(23,'D.P.T Giga Computers','binary','Shitja e produkteve teknologjike','giga@gmail.com','www.gigaPC.com',4,'Biznes Individual','2008',' Rilindja Kombëtare').
+kompania(24,'Mabetex','binary','Ndërtimi i objekteve banesore dhe banesore','mabetex@hotmail.com','www.mabetex.com',20,'Biznes Individual','2008','68, Ali Ajeti').
+kompania(25,'Kujtesa Prizren','binary','Aktivitetet e telekomunikimit kabllor','kujtesa@hotmail.com','www.kujtesaPz.com',15,'Ndermarrje e vogel','2003','155, Zahir Pajaziti').
+kompania(26,'Compania Dea','binary','Tregtia me shumic e pijeve','Null','Null',3,'Shoqeri me pergjegjesi te kufizuar','2005','Qendra Tregtare p.n').
+kompania(27,'Codex','binary','Kompani e programimit','codexProg@gmail.com','www.codex.com',10,'Ndermarrje e vogel','2007','Vëllëzërit Frashëri').
+kompania(28,'Poliklinika Internistika','binary','Aktivitetet e mjekësisë së specializuar','internisitka@gmail.com','www.internisitka.com',3,'Ortakeri e pergjithshme','2011','Velania Xhemajl Berisha').
+kompania(29,'Kompania GR','binary','Aktivitete inxhinierike','GRcompany@gmail.com','Null',12,'Ndermarrje e vogel','2001','Metush Krasniqi').
+kompania(30,'Trepharm','binary','Prodhimin e barnave','trePharm@hotmail.com','www.trepharm.net',50,'Ndermarrje e mesme','2009','Qendra Zejtare p.n.').
+
+%kompania_adresa(Kid,Kshteti,kqyteti,krruga,kkodi_postal).
+
+kompania_adresa(21,'Kosove','Mitrovic','Skenderbeu',40000).
+kompania_adresa(22,'Kosove','Prishtine','Liria',10000).
+kompania_adresa(23,'Kosove','Gjakove','Deshmoret e kombit',50000).
+kompania_adresa(24,'Kosove','Prizeren','Luigj Gurakuqi',20000).
+kompania_adresa(25,'Kosove','Peje','Fitorja',30000).
+kompania_adresa(26,'Kosove','Ferizaj','Agim Ramadani',70000).
+kompania_adresa(27,'Kosove','Podujeve','Zahir Pajaziti',10000).
+kompania_adresa(28,'Kosove','Prishtine','Bill Clinton',10000).
+kompania_adresa(29,'Kosove','Drenas','Adem Jashari',12050).
+kompania_adresa(30,'Kosove','Prishtine','Nena Tereza',10000).
+
+%punesimi_studentit(Sid,kid,Pozita,data_fillimit,data_mbarimit).
+
+punesimi_studentit(1,25,'Inxhinier I telekomit','2010-6-7','2016-6-7').
+punesimi_studentit(2,26,'Menaxher I pergjithshem','2011-4-1','2017-5-3').
+punesimi_studentit(3,27,'Programer','2013-2-2','Null').
+punesimi_studentit(4,28,'Laborante','2014-12-1','2016-5-8').
+punesimi_studentit(5,29,'Inxhiniere e  kimise','2015-1-29','2017-3-6').
+punesimi_studentit(6,21,'Depoiste','2016-3-4','2016-7-30').
+punesimi_studentit(7,22,'Menaxher I financave','2017-1-15','2018-1-4').
+punesimi_studentit(8,23,'Kontabiliste','2018-2-3','2018-4-28').
+punesimi_studentit(9,24,'Pastruese','2016-3-20','2018-3-14').
+punesimi_studentit(10,21,'Arkatar','2017-6-9','Null').
+
+%pozita(pozid,titulli_pozites,pershkrimi_pozites,aftesite_nevojshme,aftesite_detyrueshme,vendi_punes).
+
+pozita(31,'Menaxher','E ben vendosjen e qellimeve te kompanise dhe e ndan punen ne aktiivitete te menaxhueshme','Te punoje ne presion te punes  dhe te jete I shkathet ne komunikim.','Te jete I diplomuar ne degen e menaxhmit te biznesit dhe te kete pervoje min.4 vite','Zyre').
+pozita(3,'Drejtor','Menaxhimin e aktiviteteve te biznesit dhe financave','Ta kete vizionin e liderit,planifikuesit. ','Te kete aftesi negocimi ,komunikimi dhe vendimmarrje.','Zyre').
+pozita(33,'Kontabilist','Praktikuesi I kontabilitetit te kompanise','Aftesia per te punuar ne grup','Ta kete te kryer se paku kurse te kontabilitetit dhe pervoja e punes','Zyrja per financa').
+pozita(34,'IT','Te beje testimin,instalimin,riparimin e harduerit ','Te punoje ne presion te punes  ','Te jete I diplomuar dhe te kete pervoje pune 3 vjeqare','Zyra per administrat dhe IT').
+pozita(35,'Administrat','Te kryeje punet administrative ne kompani,te pergatise raportet etj.','Te jete e shkathet ne komunikim ','Te kete aftesi me kompjuter me programet word,excel etj.','Zyra per administrat dhe IT').
+pozita(36,'Kimist','Fokusimi dhe analizimi I materieve,substancave si dhe matja e grimcave te substances.','Fokusimi dhe analizimi I materieve,substancave si dhe matja e grimcave te substances.','Te jete I diplomuar ne drejtimin kimi inxhinierike','Laborator').
+pozita(37,'Fizicient','Te kryeje vezhgimet dhe matjet astronomike te motit','Te kete pervoje pune min 3 vjet','Te jete I diplomuar ne fizike te pergjithshme ose fizike inxhnierike','Laborator').
+pozita(38,'Laborant','Te kryeje punen e matjeve laboratorike per analiza.','Te jete I afte per te punuar ne grup','Te kete pervoje pune min.2 vjeqare','Laborator').
+pozita(39,'Avokat','Te kryeje punen e avokatit si dhe keshiluesit te kompanise.','Te kete njohuri per teknologjine/kompjuterin','Te kete aftesi komunikimi me goje dhe shkrim','Zyrja per keshillim dhe avokati').
+pozita(40,'Farmacist','Te beje analizen dhe testimin e barnave te prodhuara.','Aftesi komunikuese ','Te jete I diplomuar dhe te kete njohuri ne shkence dhe matematike','Laborator').
+
+%shpallja_pozites(Pozid,kid).
+
+shpallja_pozites(31,21).
+shpallja_pozites(32,22).
+shpallja_pozites(33,23).
+shpallja_pozites(34,24).
+shpallja_pozites(35,25).
+shpallja_pozites(36,26).
+shpallja_pozites(37,27).
+shpallja_pozites(38,28).
+shpallja_pozites(39,29).
+shpallja_pozites(40,30).
+
+%studenti_aplikon(sid,pozid,titulli_pozites,data_aplikimit,koha_aplikimit,nr_aplikimeve)
+
+studenti_aplikon(1,31,'Menaxher','2019-1-4','10:00:00','2').
+studenti_aplikon(2,32,'Drejtor','2019-1-4','11:30:00','1').
+studenti_aplikon(3,33,'Kontabilist','2019-1-5','11:40:00','3').
+studenti_aplikon(4,34,'IT','2019-1-2','12:30:00','4').
+studenti_aplikon(5,35,'Administrat','2019-1-3','13:10:20','2').
+studenti_aplikon(6,36,'Kimist','2019-1-2','13:50:30','1').
+studenti_aplikon(7,37,'Fizicient','2019-1-1','14:30:00','2').
+studenti_aplikon(8,38,'Biolog','2019-1-2','14:44:12','4').
+studenti_aplikon(9,39,'Avokat','2019-1-3','14:50:11','1').
+studenti_aplikon(10,40,'Farmacist','2019-1-2','15:00:20','5').
+
+%komenti(Sid,pozid,Kkomenti,kdata_koha,knr_i_pelqimeve,knr_i_komenteve)
+
+komenti(1,31,'Kur fillojne punen aplikantet e pranuar?','2019-1-4',20,25).
+komenti(2,32,'Mundesi e mire','2019-1-5',20,62).
+komenti(3,33,'Sa veta pranohen?','2019-1-4',16,190).
+komenti(4,34,'A mund te aplikojme permes e-mailit','2019-1-5',19,71).
+komenti(5,35,'Sa eshte numri i aplikanteve qe do te pranohen?','2019-1-4',20,41).
+komenti(6,36,'Mundesi e shkelqyer!','2019-1-4',16,23).
+komenti(7,37,'A eshte e domosdoshme pervoja','2019-1-5',19,55).
+komenti(8,38,'Cfare aftesi nevojiten?','2019-1-2',20,39).
+komenti(9,39,'A do te kete shpalje tjera per kete pozite?','2019-1-3',16,49).
+komenti(10,40,'Mundesi e mire','2019-1-4',19,51).
+
+%pelqimi(Sid,Pozid).
+
+pelqimi(1,31).
+pelqimi(2,32).
+pelqimi(3,33).
+pelqimi(4,34).
+pelqimi(5,35).
+pelqimi(6,36).
+pelqimi(7,37).
+pelqimi(8,38).
+pelqimi(9,39).
+pelqimi(10,40).
+
+%shperndarja(sid,Pozid,shp_koment,shpdata/koha).
+
+shperndarja(1,31,'Null','2018-3-8/10:00').
+shperndarja(2,32,'Null','2018-3-9/16:03').
+shperndarja(3,33,'Te gjithe te interesuarit mund te aplikojne.','2018-3-10/15:07').
+shperndarja(4,34,'Null','2018-4-20/10:20').
+shperndarja(5,35,'Mundesi  e mire!','2018-4-19/13:31').
+shperndarja(6,36,'Null','2018-5-21/11:59').
+shperndarja(7,37,'Vend I shkelqyer pune.','2018-5-25/11:05').
+shperndarja(8,38,'Null','2018-5-26/17:11').
+shperndarja(9,39,'Null','2018-6-8/09:45').
+shperndarja(10,40,'Dita e fundit per aplikim eshte sot!','2018-6-19/08:00').
+
+
+
+%1. Listoni të gjithë studentët që janë nga qyteti i Prishtinës të cilët nuk kanë të regjistruar asnjë projekt. 
+
+q11(S):-studenti_jeton(S,T,Q,RR),Q='Prishtine'.
+q12(S):-studenti_realizon_projektin(S,P).
+q1(S):-q11(S),not(q12(S)).
+
+
+%2. Cilët studentë (numrat unik, emrat dhe mbiemrat e tyre) dje dhe sot kanë komentuar dhe kanë shpërndarë (share) ndonjë pozitë?   
+
+q21(S,E,M):-komenti(S,P,KK,D,NRP,NRK),shperndarja(S1,P,SHK,SHKK),studenti(S2,E,M,GJ,D,SM,EM),S=S1,S1=S2,SHKK='2019.12.01'.
+q22(S,E,M):-komenti(S,P,KK,D,NRP,NRK),shperndarja(S,P,SHK,SHKK),studenti(S2,E,M,GJ,D,SM,EM),S=S1,S1=S2, SHKK='2019.12.02'.
+q2(S,E,M):-q21(S),q22(S).
+
+%3. Paraqitni të gjitha pozitat që janë publikuar këtë muaj në qytetin e Prishtinës dhe për të cilat pozita nuk ka asnjë studentë që ka aplikuar.  
+
+q31(P):-pozita(P,TP,PP,AN,AD,VP,DP,DA,NA),DP>'2019.01.01',DP<'2018.01.31',VP='Prishtine'.
+q32(P):-studenti_aplikon(S,P,DAA,KA).
+Q3(P):-q31(P),not(q31(P)).
+
+%4. Listoni studentët të cilët dje kanë aplikuar në dy ose më shumë pozita ndërsa sot nuk kanë aplikuar në asnjë pozitë. 
+
+q41(S):-studenti_aplikon(S,P,TP,D,K,N),D='2019.01.11',N>2.
+q42(S):-studenti_aplikon(S,P,TP,D,K,N),D='2019.01.12',N='null'.
+q4(S):-q41(S),q42(S).
